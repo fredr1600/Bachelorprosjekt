@@ -1,14 +1,14 @@
 
 .grid-container {
   display: grid;
-  grid-template-rows: 100vh 100vh 100vh;
+  grid-template-rows: auto auto auto;
 }
 
 .grid-container-header {
   display: grid;
   grid-template-rows: 30% 70%;
   background-color: #eaebed;
-  height: 100vh;
+  height: 70vh;
  
 }
 .grid-container-header-logo{
@@ -24,7 +24,7 @@ justify-content: space-around;
   display: grid;
   grid-template-columns: 10% auto 10%;
   background-color: #cad1d7;
-  height: 100vh;
+  height: 70vh;
 }
 .grid-container-main-content{
   display:flex;
