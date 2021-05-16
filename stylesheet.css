@@ -8,7 +8,7 @@
   display: grid;
   grid-template-rows: 30% 70%;
   background-color: #eaebed;
-  height: 70vh;
+  height: 90vh;
  
 }
 .grid-container-header-logo{
@@ -16,8 +16,9 @@ display: flex;
 justify-content: space-around;
 }
 .grid-container-header-text{
-  display: flex;
+  display: grid;
   text-align: center;
+  grid-template-rows: auto auto;
   justify-content: center ;
 }
 .grid-container-main {
@@ -35,16 +36,17 @@ justify-content: space-around;
 
 .grid-container-footer {
   display: grid;
-  grid-template-columns: 10% auto auto 10%;
+  grid-template-columns: auto auto;
   background-color: #153e54;
-  height: 70vh;
+  height: 50vh;
   padding-top: 5em;
   padding-bottom: 5em;
  
 }
+
 .grid-item {
   padding: 20px;
-  font-size: 30px;
+  /* font-size: 30px; */
   text-align: center;
   align-items: center;
   justify-content: center;
@@ -64,6 +66,24 @@ justify-content: space-around;
  justify-content: center;
 }
 
+.grid-item-header{
+  padding: 20px;
+  font-size: 2em; 
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.grid-item-thesis{
+  padding: 20px;
+  font-size: 2em; 
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
 .info-text{
   color: white;
 }
@@ -74,14 +94,19 @@ body{
 }
 
 .axeptia-logo{
-  height: 2em;
+  height: 10vh;
 }
 .oslomet-logo{
-  height: 3em;
+  height: 15vh;
 }
 
 img{
   height: 300px;
+  border-radius: 10px;
+}
+
+a{
+  color: inherit;
 }
 
 
